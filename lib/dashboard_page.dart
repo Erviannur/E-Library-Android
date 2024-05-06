@@ -149,7 +149,7 @@ class _DashboardPageState extends State<DashboardPage> {
                                         overflow: TextOverflow.ellipsis,
                                       ),
                                       Text(
-                                        'Penulis: ${books[index]['penulis']}',
+                                        books[index]['penulis'],
                                         style: TextStyle(fontSize: 14),
                                         maxLines: 1,
                                         overflow: TextOverflow.ellipsis,
