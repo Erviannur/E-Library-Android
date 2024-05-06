@@ -8,6 +8,7 @@ class RegisterSuccessPage extends StatelessWidget {
         title: Text('Registrasi Berhasil'),
         backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
+        automaticallyImplyLeading: false,
       ),
       body: Center(
         child: Column(

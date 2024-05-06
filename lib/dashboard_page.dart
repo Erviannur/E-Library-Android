@@ -67,9 +67,13 @@ class _DashboardPageState extends State<DashboardPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dashboard'),
+        title: Text(
+          'Dashboard',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
         backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
+        automaticallyImplyLeading: false,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -298,7 +302,10 @@ class BookDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Detail Buku'),         
+        title: Text(
+          'Detail Buku',
+          style: TextStyle(fontWeight: FontWeight.bold),
+          ),         
         backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
       ),

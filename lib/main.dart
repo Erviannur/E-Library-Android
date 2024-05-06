@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'E-Library',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'Quicksand',
         primaryColor: Colors.white,
