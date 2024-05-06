@@ -160,7 +160,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               const SizedBox(
-                width: 16,
+                height: 5,
               ),
               OutlinedButton.icon(
                 onPressed: () {},
@@ -176,7 +176,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: Theme.of(context).textTheme.bodyText2,
                 ),
               ),
-              const SizedBox(height: 8),
+              const SizedBox(height: 12),
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
