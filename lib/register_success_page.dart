@@ -5,7 +5,10 @@ class RegisterSuccessPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Registrasi Berhasil'),
+        title: Text(
+          'Pendaftaran Berhasil',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),      
         backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
         automaticallyImplyLeading: false,

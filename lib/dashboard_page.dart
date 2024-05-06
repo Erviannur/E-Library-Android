@@ -305,7 +305,7 @@ class BookDetailPage extends StatelessWidget {
         title: Text(
           'Detail Buku',
           style: TextStyle(fontWeight: FontWeight.bold),
-          ),         
+        ),         
         backgroundColor: Colors.orange,
         foregroundColor: Colors.white,
       ),
